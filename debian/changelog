@@ -1,0 +1,58 @@
+node-is-windows (1.0.2+~cs1.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sunday Nkwuda ]
+  * embed @types/is-windows
+  * New upstream version 1.0.2+~cs1.0.0
+  * bump up debhelper compatibility level ( 12 => 13 )
+  * rules do not require root
+  * enable CI
+
+  [ Yadd ]
+  * Fix autopkgtest and really switch test to dh-sequence-nodejs
+  * Remove dependency to nodejs
+  * Mark mocha with <!nocheck>
+
+ -- Yadd <yadd@debian.org>  Thu, 24 Jun 2021 13:52:39 +0200
+
+node-is-windows (1.0.2-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.2.1, no changes needed.
+  * Apply multi-arch hints.
+    + node-is-windows: Add Multi-Arch: foreign.
+
+  [ Pirate Praveen ]
+  * Use dh-sequence-nodejs auto install
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 06 Jan 2021 18:25:37 +0530
+
+node-is-windows (1.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 21 Aug 2018 10:25:49 +0200
+
+node-is-windows (1.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump standards, change section to javascript
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 06 Jan 2018 00:04:05 +0530
+
+node-is-windows (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #842045)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 25 Oct 2016 19:18:54 +0530
